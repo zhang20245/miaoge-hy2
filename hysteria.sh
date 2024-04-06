@@ -559,7 +559,7 @@ menu() {
     clear
     echo "#############################################################"
     echo -e "#                  ${RED}喵哥Hysteria 2 一键安装脚本${PLAIN}                  #"
-    echo -e "# ${GREEN}作者${PLAIN}: 喵哥                                  #"
+    echo -e "# ${GREEN}作者${PLAIN}: miaogehy2 の 喵哥                                  #"
     echo "#############################################################"
     echo ""
     echo -e " ${GREEN}1.${PLAIN} 安装 Hysteria 2"
