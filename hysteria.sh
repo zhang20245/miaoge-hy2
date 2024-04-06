@@ -244,7 +244,7 @@ insthysteria(){
     fi
     ${PACKAGE_INSTALL} curl wget sudo qrencode procps iptables-persistent netfilter-persistent
 
-    wget -N https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy2/install_server.sh
+    wget -N https://github.com/zhang20245/miaoge-hy2/blob/5856e935e84fcd34d65cf8082a8ede071b718685/install_server.sh
     bash install_server.sh
     rm -f install_server.sh
 
@@ -549,7 +549,7 @@ showconf(){
 }
 
 update_core(){
-    wget -N https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy2/install_server.sh
+    wget -N https://github.com/zhang20245/miaoge-hy2/blob/5856e935e84fcd34d65cf8082a8ede071b718685/install_server.sh
     bash install_server.sh
     
     rm -f install_server.sh
@@ -558,14 +558,8 @@ update_core(){
 menu() {
     clear
     echo "#############################################################"
-    echo -e "#                  ${RED}Hysteria 2 一键安装脚本${PLAIN}                  #"
-    echo -e "# ${GREEN}作者${PLAIN}: MisakaNo の 小破站                                  #"
-    echo -e "# ${GREEN}博客${PLAIN}: https://blog.misaka.rest                            #"
-    echo -e "# ${GREEN}GitHub 项目${PLAIN}: https://github.com/Misaka-blog               #"
-    echo -e "# ${GREEN}GitLab 项目${PLAIN}: https://gitlab.com/Misaka-blog               #"
-    echo -e "# ${GREEN}Telegram 频道${PLAIN}: https://t.me/misakanocchannel              #"
-    echo -e "# ${GREEN}Telegram 群组${PLAIN}: https://t.me/misakanoc                     #"
-    echo -e "# ${GREEN}YouTube 频道${PLAIN}: https://www.youtube.com/@misaka-blog        #"
+    echo -e "#                  ${RED}喵哥Hysteria 2 一键安装脚本${PLAIN}                  #"
+    echo -e "# ${GREEN}作者${PLAIN}: 喵哥                                  #"
     echo "#############################################################"
     echo ""
     echo -e " ${GREEN}1.${PLAIN} 安装 Hysteria 2"
